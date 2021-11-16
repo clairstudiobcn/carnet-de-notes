@@ -1,0 +1,31 @@
+/* CONTAINER*/
+.layout {display: flex;flex-direction: row;min-height: 100vh;}
+
+.div {display: flex;flex-direction: column;justify-content: space-between;width: 50%;}
+/* HEADER */
+.header {padding:1.5rem;margin:0rem;}
+.header a {border-bottom:none;}
+
+.note{padding:1.5rem;margin:0rem;}
+
+.main {display: flex;flex-direction: column;justify-content: space-between;}
+
+.section {padding:1.5rem;max-width: 800px;}
+
+.blog {padding:1.5rem;}
+.post {display:flex;flex-direction: row;max-width: 800px;}
+.post h3 {margin:0;}
+.post p {margin: 0 0 1.5rem;}
+.post a {border-bottom: solid 1px var(--fg);}
+.date {margin: 0 0 0 1.5rem;}
+.tags {margin: 0 0 0 1.5rem;}
+.post_cat {margin: 0 0 0 1rem;}
+.post_header {margin:0 0 1.5rem;}
+.post_title {margin: 0;}
+
+.footer {display:flex;padding:1.5rem;}
+
+@media (max-width: 600px) {
+  .layout {display: block;}
+  .div {display: block;width: 100%;}
+}
